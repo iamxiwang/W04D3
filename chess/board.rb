@@ -1,5 +1,5 @@
 require_relative "piece"
-require_relative "pieces/nullpiece"
+require_relative "nullpiece"
 
 class Board
     attr_reader :rows, :null_piece
